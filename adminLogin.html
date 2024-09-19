@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="page.css">
+
+    <link rel="stylesheet" href="adminlogin.css">
+</head>
+<body>
+    <!-- Hidden checkbox for sidebar toggle -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="UserHomePage.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="adminLogin.html">Admin</a></li>
+            <li><a href="Query.html">Query</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+
+    
+    <h2 class="admin-head"><center>Admin Login</center></h2>
+    <form class="adminform">
+        <label class="email">Email<label></label>
+            <input type="email" class="email" id="email" placeholder="Enter your Email Id"><br></br>
+             
+        <label class="email" class="password">Password</label>
+            <input type="password" class="password" id="password" placeholder="password">
+        <p></p>
+        <input type="submit" class="submit" id="submit" placeholder="submit">
+        </form>
+        
+</body>
+</html>

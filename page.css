@@ -1,0 +1,241 @@
+body 
+{
+    background-image: url('images/home1.jpg');
+    background-size: cover;
+
+}
+
+@keyframes glitter {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.title {
+    font-size: 50px;
+    background: linear-gradient(90deg, #ff0000, #f93b3b, #ff0000); /* Red gradient */
+    background-size: 200% 200%; /* Make the background larger to animate */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glitter 2s infinite; /* Apply animation to the background */
+    font-weight: bold;
+    font-weight: bold;    position: relative;
+    font-size: 50px;
+    top: 50px;
+    font-family: 'Lato', sans-serif; /* Uses Roboto if available, otherwise falls back to the default sans-serif */
+}
+
+
+
+
+.admin{
+    color:rgb(255, 0, 0);
+    font-size: xx-large;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    padding:10px 20px ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.admin:hover{
+    color:green;
+}
+
+
+.query-button{
+    color:rgb(255, 0, 0);
+    font-size: xx-large;
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    padding:10px 20px ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.query-button:hover{
+    color: green;
+}
+
+.user-button{
+    color:rgb(255, 0, 0);
+    font-size: xx-large;
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    padding:10px 20px ;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.user-button:hover{
+   color: green;
+}
+
+.aboutus-button{
+    color:rgb(255, 0, 0);
+    font-size: xx-large;
+    position: absolute;
+    top: 100px;
+    right: 450px;
+    padding:10px 20px ;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.aboutus-button:hover{
+    color: green;
+}
+
+.profile-button{
+
+    color:rgb(255, 0, 0);
+    font-size: xx-large;
+    position: absolute;
+    top: 100px;
+    right: 600px;
+    padding:10px 20px ;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.profile-button:hover{
+   color: green;
+}
+
+
+.contact-button{
+    color:rgb(255, 0, 0);
+    font-size: xx-large;
+    position: absolute;
+    bottom: 50px;
+    right: 180px;
+    padding:10px 20px ;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.contact-button:hover{
+    color: green;
+}
+
+.form-action{
+    width:400px;
+    margin: 50px;
+}
+
+.profile-header{
+    color: red;
+}
+
+.head{
+    color: red;
+    font-size: 25px;
+}
+b{
+    color: red;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.about{
+    position: relative;
+    top: 180px;
+    left:50px;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: margin-left 0.3s;
+}
+
+#menu-toggle {
+    display: none; 
+}
+
+
+.menu-icon {
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    z-index: 2;
+}
+
+.menu-icon span {
+    background-color: rgb(176, 1, 1); 
+    height: 4px; 
+    width: 100%; 
+    border-radius: 2px; 
+    transition: all 0.3s; 
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    width: 250px;
+    height: 100%;
+    background-color: #941b1b7d;
+    padding-top: 60px;
+    transition: left 0.3s;
+    z-index: 1;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #fffbfb;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #b60101b2;
+    border-radius: 4px;
+}
+
+
+/* Checkbox Toggle: When Checked, Open Sidebar */
+#menu-toggle:checked ~ .sidebar {
+    left: 0; /* Show the sidebar */
+}
+
+#menu-toggle:checked ~ .main-content {
+    margin-left: 250px; /* Push the main content to the right */
+}

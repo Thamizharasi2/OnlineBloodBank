@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="userlogin.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <!-- Hidden checkbox for sidebar toggle -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="UserHomePage.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="adminLogin.html">Admin</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <h2 class="user-head"><center>User Login</center></h2>
+    <form class="userform">
+        <label class="useremail" for="email">Email</label>
+        <input type="email" class="useremail" id="email" placeholder="Enter your Email Id"><br><br>
+        
+        <label class="userpassword" for="password">Password</label>
+        <input type="password" class="userpassword" id="password" placeholder="Password">
+        
+        <input type="submit" class="usersubmit" id="submit" value="Submit">
+    </form>
+</body>
+</html>

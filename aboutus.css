@@ -1,0 +1,29 @@
+.head{
+    color : linear-gradient(to right, #ff0000, #ff7f7f);    font-size: 25px;
+}
+b{
+    color: red;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.about {
+    margin: 50px;
+    top: 100px;
+    padding: 30px;
+    border: 2px solid #ffffff68; 
+    overflow: hidden;
+    max-width: 1450px; 
+    background-color: rgba(255, 255, 255, 0.115); 
+}
+.head {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.description, blockquote {
+    font-size: 16px;
+    padding-left: 20px;
+    color: #333;
+    border-left: 4px solid #ff000052;
+    text-align: justify;
+}

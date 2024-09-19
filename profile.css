@@ -1,0 +1,35 @@
+.profile-header{
+    color:red;
+    margin-top: 80px;
+    font-family: Georgia;
+}
+
+
+.form-action{
+    margin-top: 50px; 
+    margin-left: 600px;
+    color: red;
+    text-justify: center;
+    font-weight: bold;
+}
+
+.radio{
+    color:rgb(255, 136, 0);
+}
+
+.message{
+    position: relative;
+    left: 150px;
+}
+
+.submit{
+    background-color: red;
+    color: white;   
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 2px;
+}
+.submit:hover{
+    color: rgb(145, 187, 55);
+}

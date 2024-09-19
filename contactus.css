@@ -1,0 +1,31 @@
+.logo-container {
+    display: flex;
+    align-items: center; /* Aligns logos vertically */
+    gap: 70px; /* Adjust spacing between logos */
+    margin-top: 50px;
+    margin-left: 800px;
+}
+
+.logo-container a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from font */
+}
+
+.logo-container i {
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.logo-container a:hover i {
+    opacity: 0.6; /* Change opacity on hover */
+}
+
+.contact-info {
+    margin-top: 210px;
+    margin-left: 400px;
+    font-size: 20px;
+    color: red;
+}
+
+.para {
+    text-indent: 50px;
+}

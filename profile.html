@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add profile</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="profile.css">
+
+</head>
+<body>
+
+
+    <!-- Hidden checkbox for sidebar toggle -->
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="UserHomePage.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="adminLogin.html">Admin</a></li>
+            <li><a href="Query.html">Query</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+
+
+
+    
+    <h2 class="profile-header"><center>Profile</center></h2>
+
+    <form class="form-action"  method="post" >
+
+        Name <input type="text" name="name" placeholder="Name"><p></p>
+        Age <input type="text" name="age" placeholder="Age"><p></p>
+       
+       
+         <label > Gender </label>
+        <label  class="radio" >
+            <input type="radio"name="gender" value="Male"> Male
+        </label>
+
+        <label  class="radio" >
+            <input type="radio" class="radio" name="gender" value="Female"> Female
+        </label>
+        <p></p>
+
+        
+        blood group
+        <select name="blood" id="blood-group">
+            <option></option>
+            <option value="B+"> B positive</option>   
+            <option value="A+">A positive</option>
+            <option value="A-">A negative</option> 
+            <option value="AB +">AB positive</option>
+            <option value="O +">O positive</option>
+            <option value="O -">O Negative</option>
+        </select><br></br>
+        <label>Are  you a Alcohol consumer</label>
+        <label class="radio">
+            <input type="radio"  name="alcohol" value="Yes">Yes
+            <input type="radio" name="alcohol" value="No">No
+        </label><br></br>
+
+        <label >Select Your District</label>
+        
+        <select name="location" id="location-district" aria-placeholder="location">
+        <option placeholder="location"></option>
+        <option value="Chennai">Chennai</option>
+        <option value="Chengalpet">Chengalpet</option>
+        <option value="Trichy">Trichy</option>
+        <option value="Kancheepuram">Kancheepuram</option>
+        <option value="Salem">Salem</option>
+        <option value="vilupuram">vilupuram</option>
+        <option value="Thirunelveli">Thirunelveli</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Kumbakonam">Kumbakonam</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Namakkal">Namakkal</option>
+        <option value="Kanyakumari">Kanyakumari</option>
+        <option value="Cuddalore">Cuddalore</option>
+        <option value="Chidambaram">Chidambaram</option>
+    </select><p></p>
+    <label>Active status</label>
+    <label class="radio">
+    <input type="radio" name="status" value="Immediate">Immediate
+    <input type="radio" name="status" value="Weekdays">Week days
+    <input type="radio" name="status" value="weekends">weekends
+    </label>
+    <p></p>
+    <label for="message">Your Medical history</label><br>
+    <textarea class="message" id="message" name="message" rows="5" cols="30" ></textarea><br><br>    
+    <input type="submit" class="submit" value="submit">
+    </form>
+
+
+</body>
+</html>

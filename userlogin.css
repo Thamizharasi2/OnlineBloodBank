@@ -1,0 +1,34 @@
+.user-head{
+    color:red;
+    margin-top: 100px;
+    left: 500px;
+    font-family: Georgia;
+    font-size: 50px;
+}
+
+.userform{
+    margin-top: 150px; 
+    margin-left: 600px;
+    color: red;
+    text-justify: center;
+    font-weight: bold;
+    font-size: 20px;
+   
+}  
+
+
+
+.usersubmit{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 70px;
+    cursor:pointer;
+}
+
+.usersubmit:hover{
+    color: rgb(130, 225, 57);
+}
+

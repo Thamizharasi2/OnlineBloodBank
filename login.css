@@ -1,0 +1,95 @@
+
+body{
+    margin: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+    position: relative;
+    border-radius: 25px;
+    
+
+}
+
+.main{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+.submit{
+    background-color: green;
+    color: aliceblue;
+    font-size: larger;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+            .demo {
+                background-color: rgb(189, 21, 21);
+                color: white;
+
+                height: 50px;
+                width: 150px;
+                cursor: pointer;
+                border: none;
+                
+            }
+            .demo:hover{
+                background-color: green;
+            }
+
+            .join-button{
+                background-color: white;
+                height: 40px;
+                width: 130px;
+                border-radius: 2px;
+                border-color: rgb(12, 6, 194);
+                color: rgb(12, 6, 194);
+                border-style: solid;
+                border-width: 1px;
+                cursor: pointer;
+
+            }
+
+            .Request-button{
+                background-color: black;
+                color: white;
+                height: 40px;
+                width: 150px;
+                border-width: 8px;
+                border-style: solid;
+                border-color: white;
+            }
+           .Request-button:hover{
+            background-color: yellow;
+           }
+            .Amazon-button
+             {
+    position: relative; 
+    height: 50px;
+    width: 100px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(190, 179, 169);
+    color: rgb(10, 0, 0);
+    background-color: transparent; 
+    overflow: hidden; 
+}
+
+.Amazon-button:hover{
+    background-color: blueviolet;
+}
+
+            .Amazon-button::before{
+                content: '';
+                position: absolute;
+                top:0;
+                left:0;
+                right: 0;
+                bottom: 0;
+                background-color: yellow;
+                border-radius: 25px;
+                z-index: -1;
+            }
+            
+      
